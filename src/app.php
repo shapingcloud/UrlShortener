@@ -70,7 +70,7 @@ $app->get('/{url_slug}',function($url_slug) use($app){
     
     //NOTE:  switch the commenting on these lines and instead of printing out the URL, users will get redirected
     //echo $app['shortener']->get($url_slug);
-	return $app->redirect($app['url_service']->get($url_slug));
+	return $app->redirect($app['shortener']->get($url_slug));
 });
 
 /** Shows a view of all the URLs and their Slugs */
