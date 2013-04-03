@@ -25,10 +25,10 @@ class UrlShortener {
     private $url_file = '';
 
     //Local
-    private $db_server = 'localhost';
-    private $db_user   = 'phptestuser';
-    private $db_password = 'phptestuser';
-    private $db_name     = 'shorty';
+    private $db_server = 'eu-cdbr-azure-north-a.cloudapp.net';
+    private $db_user   = 'b4e69d1da72050';
+    private $db_password = '16e8c21c';
+    private $db_name     = 'shrtAUSREXkR9cid';
     
 
     //Used to make sure regex's are valid
